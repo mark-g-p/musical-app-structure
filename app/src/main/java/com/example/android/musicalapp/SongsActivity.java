@@ -36,19 +36,19 @@ public class SongsActivity extends AppCompatActivity {
 
         // Create a list of words
         ArrayList<Song> songsList = new ArrayList<>();
-        songsList.add(new Song("Artist1", "Song1",
+        songsList.add(new Song(getString(R.string.artist1), getString(R.string.song1),
                 R.drawable.generic_small));
-        songsList.add(new Song("Artist1", "Song2",
+        songsList.add(new Song(getString(R.string.artist1), getString(R.string.song2),
                 R.drawable.generic_small));
-        songsList.add(new Song("Artist2", "Song4",
+        songsList.add(new Song(getString(R.string.artist2), getString(R.string.song4),
                 R.drawable.generic_small));
-        songsList.add(new Song("Artist3", "Song3",
+        songsList.add(new Song(getString(R.string.artist3), getString(R.string.song3),
                 R.drawable.generic_small));
-        songsList.add(new Song("Artist1", "Song5",
+        songsList.add(new Song(getString(R.string.artist1), getString(R.string.song5),
                 R.drawable.generic_small));
-        songsList.add(new Song("Artist5", "Song12",
+        songsList.add(new Song(getString(R.string.artist5), getString(R.string.song12),
                 R.drawable.generic_small));
-        songsList.add(new Song("Artist6", "Song17",
+        songsList.add(new Song(getString(R.string.artist6), getString(R.string.song17),
                 R.drawable.generic_small));
 
         SongAdapter adapter =

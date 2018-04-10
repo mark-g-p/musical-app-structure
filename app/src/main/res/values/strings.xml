@@ -7,4 +7,17 @@
     <string name="play">Play</string>
     <string name="next">Next</string>
     <string name="song_activity">List</string>
+    <string name="artist1">Artist1</string>
+    <string name="artist2">Artist2</string>
+    <string name="artist3">Artist3</string>
+    <string name="artist5">Artist5</string>
+    <string name="artist6">Artist6</string>
+    <string name="song1">Song1</string>
+    <string name="song2">Song2</string>
+    <string name="song4">Song4</string>
+    <string name="song3">Song3</string>
+    <string name="song5">Song5</string>
+    <string name="song12">Song12</string>
+    <string name="song17">Song17</string>
+    <string name="playlist_1">Playlist 1</string>
 </resources>

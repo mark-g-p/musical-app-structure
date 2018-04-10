@@ -26,13 +26,13 @@
     <style name="author_name_style">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">32sp</item>
+        <item name="android:textSize">34sp</item>
     </style>
 
     <style name="song_name_style">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">32sp</item>
+        <item name="android:textSize">34sp</item>
         <item name="android:textStyle">bold</item>
     </style>
 
@@ -61,6 +61,16 @@
         <item name="android:layout_marginRight">8dp</item>
         <item name="android:layout_marginTop">8dp</item>
         <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="playlist_button_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:background">#BD1E2D</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:textSize">34sp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
     </style>
 
 </resources>
