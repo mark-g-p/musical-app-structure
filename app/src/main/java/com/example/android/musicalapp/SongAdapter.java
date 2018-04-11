@@ -18,7 +18,7 @@ import java.util.ArrayList;
  *
  */
 
-public class SongAdapter extends ArrayAdapter<Song> {
+class SongAdapter extends ArrayAdapter<Song> {
 
     SongAdapter(Activity context, ArrayList<Song> words) {
         super(context, 0, words);

@@ -19,10 +19,9 @@
         <activity
             android:name=".SongsActivity"
             android:label="@string/song_activity"
-            android:parentActivityName=".MainActivity"/>
-        <activity
-            android:name=".CurrentSongActivity"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".CurrentSongActivity"
+            android:label="@string/currently_playing"/>
     </application>
 
 </manifest>

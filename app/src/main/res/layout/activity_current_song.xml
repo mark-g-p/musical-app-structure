@@ -6,23 +6,30 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
+        <ImageButton
+            style="@style/music_button_style"
+            android:onClick="jumpToList"
+            android:src="@drawable/arrow"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:contentDescription="@string/back_button"/>
+
         <LinearLayout
+            style="@style/song_info_style"
             app:layout_constraintBottom_toTopOf="@+id/button2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.8"
-            style="@style/song_info_style">
+            app:layout_constraintVertical_bias="0.8">
 
             <TextView
                 android:id="@+id/author"
-                android:text="@string/author"
-                style="@style/author_name_style" />
+                style="@style/author_name_style"
+                android:text="@string/author" />
 
             <TextView
                 android:id="@+id/song_name"
-                android:text="@string/song_name"
-                style="@style/song_name_style" />
+                style="@style/song_name_style"
+                android:text="@string/song_name" />
         </LinearLayout>
 
         <ImageView
@@ -41,12 +48,12 @@
             app:srcCompat="@drawable/generic" />
 
         <ImageButton
-            android:contentDescription="@string/previous"
             android:id="@+id/button"
+            style="@style/music_button_style"
+            android:contentDescription="@string/previous"
             android:src="@drawable/previous"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            style="@style/music_button_style" />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <ToggleButton
             android:id="@+id/button2"
@@ -67,7 +74,6 @@
             android:src="@drawable/next"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
-
 
     </android.support.constraint.ConstraintLayout>
 </layout>

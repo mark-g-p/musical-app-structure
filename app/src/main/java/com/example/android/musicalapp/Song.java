@@ -2,21 +2,21 @@ package com.example.android.musicalapp;
 
 class Song {
 
-    private String songArtist;
-    private String songName;
-    private int coverImageId;
+    private final String songArtist;
+    private final String songName;
+    private final int coverImageId;
 
     /**
      * Create a new Song object.
      *
      * @param songArtist is the songs artist.
      * @param songName   is the title of song.
-     * @param imageId    is the id of a cover image
+     * @param coverImageId    is the id of a cover image
      */
-    Song(String songArtist, String songName, int imageId) {
+    Song(String songArtist, String songName, int coverImageId) {
         this.songArtist = songArtist;
         this.songName = songName;
-        this.coverImageId = imageId;
+        this.coverImageId = coverImageId;
     }
 //    Getters
     String getSongArtist() {

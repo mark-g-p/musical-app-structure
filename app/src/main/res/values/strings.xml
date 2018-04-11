@@ -20,4 +20,6 @@
     <string name="song12">Song12</string>
     <string name="song17">Song17</string>
     <string name="playlist_1">Playlist 1</string>
+    <string name="currently_playing">Currently Playing</string>
+    <string name="back_button">Back button</string>
 </resources>
