@@ -6,13 +6,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <ImageButton
-            style="@style/music_button_style"
-            android:onClick="jumpToList"
-            android:src="@drawable/arrow"
-            app:layout_constraintHorizontal_bias="0.0"
-            android:contentDescription="@string/back_button"/>
-
         <LinearLayout
             style="@style/song_info_style"
             app:layout_constraintBottom_toTopOf="@+id/button2"

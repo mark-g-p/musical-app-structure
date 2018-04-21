@@ -26,8 +26,4 @@ public class CurrentSongActivity extends AppCompatActivity {
         }
     }
 
-    public void jumpToList(View view) {
-        Intent songsIntent = new Intent(CurrentSongActivity.this, SongsActivity.class);
-        startActivity(songsIntent);
-    }
 }
